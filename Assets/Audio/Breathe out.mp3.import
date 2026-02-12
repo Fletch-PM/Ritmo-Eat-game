@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://6co11cqg4eu8"
-path="res://.godot/imported/Breathe out.mp3-359257b5bee9b39bc77bc14b888592de.mp3str"
+path="res://.godot/imported/Breathe out.mp3-51ba1e2083cbd8131d46516534633e43.mp3str"
 
 [deps]
 
-source_file="res://Assets for Eating Game/Audio/Breathe out.mp3"
-dest_files=["res://.godot/imported/Breathe out.mp3-359257b5bee9b39bc77bc14b888592de.mp3str"]
+source_file="res://Assets/Audio/Breathe out.mp3"
+dest_files=["res://.godot/imported/Breathe out.mp3-51ba1e2083cbd8131d46516534633e43.mp3str"]
 
 [params]
 

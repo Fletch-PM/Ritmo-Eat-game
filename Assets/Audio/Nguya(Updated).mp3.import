@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://blpbroepcsob"
-path="res://.godot/imported/Nguya(Updated).mp3-3a9a0f56a1bc7003ff48917cca7d4d25.mp3str"
+path="res://.godot/imported/Nguya(Updated).mp3-95fc7dfc0a41879e00d4e9ece0ac8230.mp3str"
 
 [deps]
 
-source_file="res://Assets for Eating Game/Audio/Nguya(Updated).mp3"
-dest_files=["res://.godot/imported/Nguya(Updated).mp3-3a9a0f56a1bc7003ff48917cca7d4d25.mp3str"]
+source_file="res://Assets/Audio/Nguya(Updated).mp3"
+dest_files=["res://.godot/imported/Nguya(Updated).mp3-95fc7dfc0a41879e00d4e9ece0ac8230.mp3str"]
 
 [params]
 

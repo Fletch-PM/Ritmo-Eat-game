@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://b2gpq8tnjaxv8"
-path="res://.godot/imported/Sip.mp3-4e3284c61d4cda01e510c4963a44043e.mp3str"
+path="res://.godot/imported/Sip.mp3-f453b2b4976619b611d6be8a53869398.mp3str"
 
 [deps]
 
-source_file="res://Assets for Eating Game/Audio/Sip.mp3"
-dest_files=["res://.godot/imported/Sip.mp3-4e3284c61d4cda01e510c4963a44043e.mp3str"]
+source_file="res://Assets/Audio/Sip.mp3"
+dest_files=["res://.godot/imported/Sip.mp3-f453b2b4976619b611d6be8a53869398.mp3str"]
 
 [params]
 

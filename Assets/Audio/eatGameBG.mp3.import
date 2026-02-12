@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://b77ij5penx53v"
-path="res://.godot/imported/eatGameBG.mp3-b5607c1cf9ba70f17b202b722eeb4e92.mp3str"
+path="res://.godot/imported/eatGameBG.mp3-8e1df0b7fe29ace74cb476c476a7a00c.mp3str"
 
 [deps]
 
-source_file="res://Assets for Eating Game/Audio/eatGameBG.mp3"
-dest_files=["res://.godot/imported/eatGameBG.mp3-b5607c1cf9ba70f17b202b722eeb4e92.mp3str"]
+source_file="res://Assets/Audio/eatGameBG.mp3"
+dest_files=["res://.godot/imported/eatGameBG.mp3-8e1df0b7fe29ace74cb476c476a7a00c.mp3str"]
 
 [params]
 

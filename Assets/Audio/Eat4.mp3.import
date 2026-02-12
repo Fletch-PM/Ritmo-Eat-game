@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://cvuuw1dhq6og7"
-path="res://.godot/imported/Eat4.mp3-bbb68784671616835360cb5c1527346a.mp3str"
+path="res://.godot/imported/Eat4.mp3-58664f0c998c53185793c7a3e5a3091c.mp3str"
 
 [deps]
 
-source_file="res://Assets for Eating Game/Audio/Eat4.mp3"
-dest_files=["res://.godot/imported/Eat4.mp3-bbb68784671616835360cb5c1527346a.mp3str"]
+source_file="res://Assets/Audio/Eat4.mp3"
+dest_files=["res://.godot/imported/Eat4.mp3-58664f0c998c53185793c7a3e5a3091c.mp3str"]
 
 [params]
 

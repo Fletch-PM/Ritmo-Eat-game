@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgbsp4oldxb74"
-path="res://.godot/imported/Eat81.png-357efcb35720f0beebf230fae1d173a3.ctex"
+path="res://.godot/imported/Eat81.png-f017b492264f0f43ed8160a9915f3ce0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets for Eating Game/Ending/Eat81.png"
-dest_files=["res://.godot/imported/Eat81.png-357efcb35720f0beebf230fae1d173a3.ctex"]
+source_file="res://Assets/Ending/Eat81.png"
+dest_files=["res://.godot/imported/Eat81.png-f017b492264f0f43ed8160a9915f3ce0.ctex"]
 
 [params]
 

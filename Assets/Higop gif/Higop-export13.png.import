@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsbooiqmmfhu1"
-path="res://.godot/imported/Higop-export13.png-23526724845c2e69222e6e56f751a671.ctex"
+path="res://.godot/imported/Higop-export13.png-13e84531e97e338be25adae1a60c6c54.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets for Eating Game/Higop gif/Higop-export13.png"
-dest_files=["res://.godot/imported/Higop-export13.png-23526724845c2e69222e6e56f751a671.ctex"]
+source_file="res://Assets/Higop gif/Higop-export13.png"
+dest_files=["res://.godot/imported/Higop-export13.png-13e84531e97e338be25adae1a60c6c54.ctex"]
 
 [params]
 
