@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dwwjok3q120x6"
+path="res://.godot/imported/WinAudio.mp3-4c4eea5a8402f38f403fc4cff669c838.mp3str"
+
+[deps]
+
+source_file="res://Assets for Eating Game/Audio/WinAudio.mp3"
+dest_files=["res://.godot/imported/WinAudio.mp3-4c4eea5a8402f38f403fc4cff669c838.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

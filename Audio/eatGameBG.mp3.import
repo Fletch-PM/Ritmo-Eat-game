@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b77ij5penx53v"
+path="res://.godot/imported/eatGameBG.mp3-b5607c1cf9ba70f17b202b722eeb4e92.mp3str"
+
+[deps]
+
+source_file="res://Assets for Eating Game/Audio/eatGameBG.mp3"
+dest_files=["res://.godot/imported/eatGameBG.mp3-b5607c1cf9ba70f17b202b722eeb4e92.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

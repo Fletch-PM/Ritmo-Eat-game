@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://blpbroepcsob"
+path="res://.godot/imported/Nguya(Updated).mp3-3a9a0f56a1bc7003ff48917cca7d4d25.mp3str"
+
+[deps]
+
+source_file="res://Assets for Eating Game/Audio/Nguya(Updated).mp3"
+dest_files=["res://.godot/imported/Nguya(Updated).mp3-3a9a0f56a1bc7003ff48917cca7d4d25.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
