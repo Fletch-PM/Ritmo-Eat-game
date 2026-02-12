@@ -1,0 +1,832 @@
+[gd_scene format=3 uid="uid://d21a5sxwg2nss"]
+
+[ext_resource type="Texture2D" uid="uid://6ywrk7roirei" path="res://Assets for Eating Game/Eat1.png" id="1_o0gii"]
+[ext_resource type="Texture2D" uid="uid://b4datv3u6a5q1" path="res://Assets for Eating Game/Eat2.png" id="2_o8jbh"]
+[ext_resource type="Script" uid="uid://bhj4m0odac2es" path="res://Script/boy.gd" id="3_boy_script"]
+[ext_resource type="Texture2D" uid="uid://myorrbue1x24" path="res://Assets for Eating Game/gif 3/Eat3-export1.png" id="4_8pm7x"]
+[ext_resource type="Texture2D" uid="uid://xe3en3lxd5op" path="res://Assets for Eating Game/gif 3/Eat3-export2.png" id="5_6gjc1"]
+[ext_resource type="Texture2D" uid="uid://qs4lu5lqf2oi" path="res://Assets for Eating Game/gif 3/Eat3-export3.png" id="6_23e6g"]
+[ext_resource type="Texture2D" uid="uid://bgbtuvpcs0exl" path="res://Assets for Eating Game/gif 3/Eat3-export4.png" id="7_y5u28"]
+[ext_resource type="Texture2D" uid="uid://b5g8rho8ivhy3" path="res://Assets for Eating Game/gif 3/Eat3-export5.png" id="8_fow1s"]
+[ext_resource type="Texture2D" uid="uid://bh70mmyw3ocmp" path="res://Assets for Eating Game/gif 3/Eat3-export6.png" id="9_pwvbo"]
+[ext_resource type="Texture2D" uid="uid://0574g2rl7phx" path="res://Assets for Eating Game/gif 3/Eat3-export7.png" id="10_cru43"]
+[ext_resource type="Texture2D" uid="uid://dkj0o620khc24" path="res://Assets for Eating Game/gif 3/Eat3-export8.png" id="11_o853e"]
+[ext_resource type="Texture2D" uid="uid://do418tla72wis" path="res://Assets for Eating Game/gif 3/Eat3-export9.png" id="12_s7ng1"]
+[ext_resource type="Texture2D" uid="uid://bcq73sf6gavfh" path="res://Assets for Eating Game/gif 3/Eat3-export10.png" id="13_2lixj"]
+[ext_resource type="Texture2D" uid="uid://bc71lbeihoplo" path="res://Assets for Eating Game/gif 3/Eat3-export11.png" id="14_26m2t"]
+[ext_resource type="Texture2D" uid="uid://cgfp8sargpvbl" path="res://Assets for Eating Game/gif 3/Eat3-export12.png" id="15_tp6tm"]
+[ext_resource type="Texture2D" uid="uid://di2tm8h10d4ym" path="res://Assets for Eating Game/gif 3/Eat3-export13.png" id="16_w26rq"]
+[ext_resource type="Texture2D" uid="uid://cj7veu527yapk" path="res://Assets for Eating Game/gif 3/Eat3-export14.png" id="17_su4t7"]
+[ext_resource type="Texture2D" uid="uid://b7cbynqg0if60" path="res://Assets for Eating Game/gif 3/Eat3-export15.png" id="18_ndv7n"]
+[ext_resource type="Texture2D" uid="uid://vhi717g42mh6" path="res://Assets for Eating Game/gif 3/Eat3-export16.png" id="19_7le57"]
+[ext_resource type="Texture2D" uid="uid://fl1xv1fw0nps" path="res://Assets for Eating Game/gif 3/Eat3-export17.png" id="20_j27s3"]
+[ext_resource type="Texture2D" uid="uid://nssif1gt6c21" path="res://Assets for Eating Game/gif 3/Eat3-export18.png" id="21_alqxb"]
+[ext_resource type="Texture2D" uid="uid://c1ye5aconmcqg" path="res://Assets for Eating Game/gif 3/Eat3-export19.png" id="22_ptyp5"]
+[ext_resource type="Texture2D" uid="uid://df86fk4r4o8rg" path="res://Assets for Eating Game/gif 3/Eat3-export20.png" id="23_ga2so"]
+[ext_resource type="Texture2D" uid="uid://bnnqqkyeiw87r" path="res://Assets for Eating Game/gif 3/Eat3-export21.png" id="24_0hkcu"]
+[ext_resource type="Texture2D" uid="uid://c4bfvaqv8kq13" path="res://Assets for Eating Game/gif 3/Eat3-export22.png" id="25_1l0ta"]
+[ext_resource type="Texture2D" uid="uid://b4tu13kv1qk7k" path="res://Assets for Eating Game/gif 3/Eat3-export23.png" id="26_lq7f5"]
+[ext_resource type="Texture2D" uid="uid://cb3oyvp3s7fwf" path="res://Assets for Eating Game/gif 3/Eat3-export24.png" id="27_taeqo"]
+[ext_resource type="Texture2D" uid="uid://dt2fnv64bxogj" path="res://Assets for Eating Game/gif 3/Eat3-export25.png" id="28_b25dw"]
+[ext_resource type="Texture2D" uid="uid://gfd3ejk6gonp" path="res://Assets for Eating Game/Higop gif/Higop-export1.png" id="29_wxnkq"]
+[ext_resource type="Texture2D" uid="uid://drsk5xwyljyd0" path="res://Assets for Eating Game/Higop gif/Higop-export2.png" id="30_vima4"]
+[ext_resource type="Texture2D" uid="uid://bgm1uotw83htl" path="res://Assets for Eating Game/Higop gif/Higop-export3.png" id="31_b1c3p"]
+[ext_resource type="Texture2D" uid="uid://dx8c62i2yopaa" path="res://Assets for Eating Game/Higop gif/Higop-export4.png" id="32_7kln3"]
+[ext_resource type="Texture2D" uid="uid://bup05sjw2vhps" path="res://Assets for Eating Game/Higop gif/Higop-export5.png" id="33_xcey8"]
+[ext_resource type="Texture2D" uid="uid://cjcjqoftipm5" path="res://Assets for Eating Game/Higop gif/Higop-export6.png" id="34_fqowm"]
+[ext_resource type="Texture2D" uid="uid://bbabinjly75k0" path="res://Assets for Eating Game/Higop gif/Higop-export7.png" id="35_4oxxs"]
+[ext_resource type="Texture2D" uid="uid://cpnndylki2kr8" path="res://Assets for Eating Game/Higop gif/Higop-export8.png" id="36_obsex"]
+[ext_resource type="Texture2D" uid="uid://pst6qp5osl7o" path="res://Assets for Eating Game/Higop gif/Higop-export9.png" id="37_wrteo"]
+[ext_resource type="Texture2D" uid="uid://dfiwspdt6ak50" path="res://Assets for Eating Game/Higop gif/Higop-export10.png" id="38_m0f5h"]
+[ext_resource type="Texture2D" uid="uid://bi8phckaljetm" path="res://Assets for Eating Game/Higop gif/Higop-export11.png" id="39_a53h6"]
+[ext_resource type="Texture2D" uid="uid://b7srd76sp2fyd" path="res://Assets for Eating Game/Higop gif/Higop-export12.png" id="40_2chb6"]
+[ext_resource type="Texture2D" uid="uid://dsbooiqmmfhu1" path="res://Assets for Eating Game/Higop gif/Higop-export13.png" id="41_2xro1"]
+[ext_resource type="Texture2D" uid="uid://bfjdyfdypwexv" path="res://Assets for Eating Game/Higop gif/Higop-export14.png" id="42_gq54k"]
+[ext_resource type="Texture2D" uid="uid://b26cvsfl3j3ts" path="res://Assets for Eating Game/Higop gif/Higop-export15.png" id="43_a20v0"]
+[ext_resource type="Texture2D" uid="uid://btlga2xlovco1" path="res://Assets for Eating Game/Higop gif/Higop-export16.png" id="44_wyxud"]
+[ext_resource type="Texture2D" uid="uid://chpp6y578707p" path="res://Assets for Eating Game/Higop gif/Higop-export17.png" id="45_lhe7b"]
+[ext_resource type="Texture2D" uid="uid://crbh0v7uftj2g" path="res://Assets for Eating Game/Higop gif/Higop-export18.png" id="46_ys6cm"]
+[ext_resource type="Texture2D" uid="uid://cmui7yilr4xj8" path="res://Assets for Eating Game/Higop gif/Higop-export19.png" id="47_vvkrh"]
+[ext_resource type="Texture2D" uid="uid://dm7r5pibdywh7" path="res://Assets for Eating Game/Higop gif/Higop-export20.png" id="48_2u6h2"]
+[ext_resource type="Texture2D" uid="uid://b5kyg0ft2hwgc" path="res://Assets for Eating Game/Higop gif/Higop-export21.png" id="49_muril"]
+[ext_resource type="Texture2D" uid="uid://cp748rblr1hu5" path="res://Assets for Eating Game/Higop gif/Higop-export22.png" id="50_21mo5"]
+[ext_resource type="Texture2D" uid="uid://dj0jkk2oon267" path="res://Assets for Eating Game/Higop gif/Higop-export23.png" id="51_q06o5"]
+[ext_resource type="Texture2D" uid="uid://by4ciom8ewjx3" path="res://Assets for Eating Game/Higop gif/Higop-export24.png" id="52_gpusv"]
+[ext_resource type="Texture2D" uid="uid://blxp56lqcjhpp" path="res://Assets for Eating Game/Higop gif/Higop-export25.png" id="53_g7o85"]
+[ext_resource type="Texture2D" uid="uid://bsajy5pctj18t" path="res://Assets for Eating Game/Higop gif/Higop-export26.png" id="54_2qi2e"]
+[ext_resource type="Texture2D" uid="uid://cokll3evmklue" path="res://Assets for Eating Game/Higop gif/Higop-export27.png" id="55_1lmq2"]
+[ext_resource type="Texture2D" uid="uid://cbpntwl6wstc8" path="res://Assets for Eating Game/Higop gif/Higop-export28.png" id="56_w82i6"]
+[ext_resource type="Texture2D" uid="uid://bfhhb5lqkt6lk" path="res://Assets for Eating Game/Higop gif/Higop-export29.png" id="57_c3r7j"]
+[ext_resource type="Texture2D" uid="uid://kutv8uaps2rv" path="res://Assets for Eating Game/Higop gif/Higop-export30.png" id="58_hfdiy"]
+[ext_resource type="Texture2D" uid="uid://d2gnrn7c5fhfh" path="res://Assets for Eating Game/Higop gif/Higop-export31.png" id="59_3vtjj"]
+[ext_resource type="Texture2D" uid="uid://cinon0san3gnv" path="res://Assets for Eating Game/Higop gif/Higop-export32.png" id="60_v72it"]
+[ext_resource type="Texture2D" uid="uid://cj5h4owrreey4" path="res://Assets for Eating Game/Higop gif/Higop-export33.png" id="61_el3ib"]
+[ext_resource type="Texture2D" uid="uid://dx3y0uhellipm" path="res://Assets for Eating Game/Higop gif/Higop-export34.png" id="62_8nom0"]
+[ext_resource type="Texture2D" uid="uid://clp185q2riaix" path="res://Assets for Eating Game/Higop gif/Higop-export35.png" id="63_cq4ag"]
+[ext_resource type="Texture2D" uid="uid://un68d2ehag76" path="res://Assets for Eating Game/Higop gif/Higop-export36.png" id="64_7ydhp"]
+[ext_resource type="Texture2D" uid="uid://dypgmuc10e78r" path="res://Assets for Eating Game/Ending/Eat1.png" id="65_18oww"]
+[ext_resource type="Texture2D" uid="uid://blg5rqp6fahmh" path="res://Assets for Eating Game/Ending/Eat2.png" id="66_048ug"]
+[ext_resource type="Texture2D" uid="uid://dl6s12rqth0oy" path="res://Assets for Eating Game/Ending/Eat3.png" id="67_8a08l"]
+[ext_resource type="Texture2D" uid="uid://clwxd5grnlgcf" path="res://Assets for Eating Game/Ending/Eat4.png" id="68_ypji2"]
+[ext_resource type="Texture2D" uid="uid://c1al0w4hq5ugl" path="res://Assets for Eating Game/Ending/Eat5.png" id="69_wg5wf"]
+[ext_resource type="Texture2D" uid="uid://c1pw1savheklh" path="res://Assets for Eating Game/Ending/Eat6.png" id="70_ynk6e"]
+[ext_resource type="Texture2D" uid="uid://b6wsmfmgy16r0" path="res://Assets for Eating Game/Ending/Eat7.png" id="71_b1fmk"]
+[ext_resource type="Texture2D" uid="uid://ci418k6yahjqb" path="res://Assets for Eating Game/Ending/Eat8.png" id="72_efr4w"]
+[ext_resource type="Texture2D" uid="uid://htq0tk00xiei" path="res://Assets for Eating Game/Ending/Eat9.png" id="73_sr2gh"]
+[ext_resource type="Texture2D" uid="uid://c80k05b1tpmh2" path="res://Assets for Eating Game/Ending/Eat10.png" id="74_yotg8"]
+[ext_resource type="Texture2D" uid="uid://b751h60g4ju7h" path="res://Assets for Eating Game/Ending/Eat11.png" id="75_ewnhj"]
+[ext_resource type="Texture2D" uid="uid://pq5ah7e50ths" path="res://Assets for Eating Game/Ending/Eat12.png" id="76_325lx"]
+[ext_resource type="Texture2D" uid="uid://bsrubqbcafo53" path="res://Assets for Eating Game/Ending/Eat13.png" id="77_06br0"]
+[ext_resource type="Texture2D" uid="uid://barq6l28jg2cr" path="res://Assets for Eating Game/Ending/Eat14.png" id="78_y7t4q"]
+[ext_resource type="Texture2D" uid="uid://bbcrugvkb3ajy" path="res://Assets for Eating Game/Ending/Eat15.png" id="79_o2d3i"]
+[ext_resource type="Texture2D" uid="uid://c1n0tyl302isd" path="res://Assets for Eating Game/Ending/Eat16.png" id="80_nsbqf"]
+[ext_resource type="Texture2D" uid="uid://dr81hhbu8qowh" path="res://Assets for Eating Game/Ending/Eat17.png" id="81_djfkr"]
+[ext_resource type="Texture2D" uid="uid://b5m8ctlgt05s1" path="res://Assets for Eating Game/Ending/Eat18.png" id="82_xovka"]
+[ext_resource type="Texture2D" uid="uid://crosdhccfeqn0" path="res://Assets for Eating Game/Ending/Eat19.png" id="83_wwwlm"]
+[ext_resource type="Texture2D" uid="uid://cbiyola12k8n5" path="res://Assets for Eating Game/Ending/Eat20.png" id="84_6o2k6"]
+[ext_resource type="Texture2D" uid="uid://2lplvwvenm7q" path="res://Assets for Eating Game/Ending/Eat21.png" id="85_y01i7"]
+[ext_resource type="Texture2D" uid="uid://bixavclu3v3ul" path="res://Assets for Eating Game/Ending/Eat22.png" id="86_cta50"]
+[ext_resource type="Texture2D" uid="uid://cb2myvnb0wtxe" path="res://Assets for Eating Game/Ending/Eat23.png" id="87_r1v58"]
+[ext_resource type="Texture2D" uid="uid://bnap03bm2a6eb" path="res://Assets for Eating Game/Ending/Eat24.png" id="88_abit6"]
+[ext_resource type="Texture2D" uid="uid://dx3ypawtbekvg" path="res://Assets for Eating Game/Ending/Eat25.png" id="89_yxhep"]
+[ext_resource type="Texture2D" uid="uid://5yqvyqwy7i81" path="res://Assets for Eating Game/Ending/Eat26.png" id="90_fwb2n"]
+[ext_resource type="Texture2D" uid="uid://bt2kig1ycr1hb" path="res://Assets for Eating Game/Ending/Eat27.png" id="91_82pyf"]
+[ext_resource type="Texture2D" uid="uid://dbrycjm15iytu" path="res://Assets for Eating Game/Ending/Eat28.png" id="92_7kyxd"]
+[ext_resource type="Texture2D" uid="uid://x8h0jj3vnoy6" path="res://Assets for Eating Game/Ending/Eat29.png" id="93_kktqr"]
+[ext_resource type="Texture2D" uid="uid://7hgpfdi6px2o" path="res://Assets for Eating Game/Ending/Eat30.png" id="94_0p0wg"]
+[ext_resource type="Texture2D" uid="uid://doarwsjucy1hf" path="res://Assets for Eating Game/Ending/Eat31.png" id="95_2vs05"]
+[ext_resource type="Texture2D" uid="uid://cbjxef0ugpvlr" path="res://Assets for Eating Game/Ending/Eat32.png" id="96_wlupl"]
+[ext_resource type="Texture2D" uid="uid://cxj15ip226oxv" path="res://Assets for Eating Game/Ending/Eat33.png" id="97_afc31"]
+[ext_resource type="Texture2D" uid="uid://b0m12klxcnnb0" path="res://Assets for Eating Game/Ending/Eat34.png" id="98_bgiwl"]
+[ext_resource type="Texture2D" uid="uid://dwmn3yldjy7ve" path="res://Assets for Eating Game/Ending/Eat35.png" id="99_2gce3"]
+[ext_resource type="Texture2D" uid="uid://beuklsygwyhq8" path="res://Assets for Eating Game/Ending/Eat36.png" id="100_ry4yn"]
+[ext_resource type="Texture2D" uid="uid://d4h3r0pup6ef0" path="res://Assets for Eating Game/Ending/Eat37.png" id="101_0uva2"]
+[ext_resource type="Texture2D" uid="uid://daw32fg2wx8ak" path="res://Assets for Eating Game/Ending/Eat38.png" id="102_1oytb"]
+[ext_resource type="Texture2D" uid="uid://dasjnrgym4myw" path="res://Assets for Eating Game/Ending/Eat39.png" id="103_ka6bl"]
+[ext_resource type="Texture2D" uid="uid://ud5u6l1allxg" path="res://Assets for Eating Game/Ending/Eat40.png" id="104_8as3m"]
+[ext_resource type="Texture2D" uid="uid://del3senebwdky" path="res://Assets for Eating Game/Ending/Eat41.png" id="105_3mgjx"]
+[ext_resource type="Texture2D" uid="uid://b4cstaamcb7ol" path="res://Assets for Eating Game/Ending/Eat42.png" id="106_5ugb5"]
+[ext_resource type="Texture2D" uid="uid://dm2lu113uhfxu" path="res://Assets for Eating Game/Ending/Eat43.png" id="107_aavci"]
+[ext_resource type="Texture2D" uid="uid://cfkrl8nhu8bee" path="res://Assets for Eating Game/Ending/Eat44.png" id="108_q2kw8"]
+[ext_resource type="Texture2D" uid="uid://b20dse6a5xqpb" path="res://Assets for Eating Game/Ending/Eat45.png" id="109_q3h6w"]
+[ext_resource type="Texture2D" uid="uid://jsibdngoe2xm" path="res://Assets for Eating Game/Ending/Eat46.png" id="110_gxyr4"]
+[ext_resource type="Texture2D" uid="uid://d2qo0qd3cc72o" path="res://Assets for Eating Game/Ending/Eat47.png" id="111_ib0d8"]
+[ext_resource type="Texture2D" uid="uid://cagh6butwb1ex" path="res://Assets for Eating Game/Ending/Eat48.png" id="112_ugte6"]
+[ext_resource type="Texture2D" uid="uid://byhcfaaonptbc" path="res://Assets for Eating Game/Ending/Eat49.png" id="113_xl6i0"]
+[ext_resource type="Texture2D" uid="uid://hl60j022vx27" path="res://Assets for Eating Game/Ending/Eat50.png" id="114_42fqn"]
+[ext_resource type="Texture2D" uid="uid://0rl46wopo332" path="res://Assets for Eating Game/Ending/Eat51.png" id="115_33i45"]
+[ext_resource type="Texture2D" uid="uid://ca7k0v6kmabbj" path="res://Assets for Eating Game/Ending/Eat52.png" id="116_oy262"]
+[ext_resource type="Texture2D" uid="uid://b7xtcwlocgqf6" path="res://Assets for Eating Game/Ending/Eat53.png" id="117_nhkkq"]
+[ext_resource type="Texture2D" uid="uid://chb35wrfr0il1" path="res://Assets for Eating Game/Ending/Eat54.png" id="118_lt3s3"]
+[ext_resource type="Texture2D" uid="uid://co33327011emu" path="res://Assets for Eating Game/Ending/Eat55.png" id="119_rmxvc"]
+[ext_resource type="Texture2D" uid="uid://b711xw6oka1g8" path="res://Assets for Eating Game/Ending/Eat56.png" id="120_03t0m"]
+[ext_resource type="Texture2D" uid="uid://dgydbqir80srb" path="res://Assets for Eating Game/Ending/Eat57.png" id="121_6rm4a"]
+[ext_resource type="Texture2D" uid="uid://dnu4spxuftce6" path="res://Assets for Eating Game/Ending/Eat58.png" id="122_ypyoi"]
+[ext_resource type="Texture2D" uid="uid://c4458i8xh0ocv" path="res://Assets for Eating Game/Ending/Eat59.png" id="123_gxihk"]
+[ext_resource type="Texture2D" uid="uid://cii8uvgkx28u7" path="res://Assets for Eating Game/Ending/Eat60.png" id="124_4qaoj"]
+[ext_resource type="Texture2D" uid="uid://cjh8wg0qe2xin" path="res://Assets for Eating Game/Ending/Eat61.png" id="125_hpw3b"]
+[ext_resource type="Texture2D" uid="uid://mgysrhhfn8g7" path="res://Assets for Eating Game/Ending/Eat62.png" id="126_dgjx3"]
+[ext_resource type="Texture2D" uid="uid://bejg67jaxg5pb" path="res://Assets for Eating Game/Ending/Eat63.png" id="127_kbww5"]
+[ext_resource type="Texture2D" uid="uid://dommaa30sky6y" path="res://Assets for Eating Game/Ending/Eat64.png" id="128_otsj4"]
+[ext_resource type="Texture2D" uid="uid://ddfn2rfbsnivc" path="res://Assets for Eating Game/Ending/Eat65.png" id="129_4gkgs"]
+[ext_resource type="Texture2D" uid="uid://dcgxjum4onn7b" path="res://Assets for Eating Game/Ending/Eat66.png" id="130_487kp"]
+[ext_resource type="Texture2D" uid="uid://b6i4tkfpbql6n" path="res://Assets for Eating Game/Ending/Eat67.png" id="131_1weie"]
+[ext_resource type="Texture2D" uid="uid://c0q5ipcjl1u8a" path="res://Assets for Eating Game/Ending/Eat68.png" id="132_mrlsl"]
+[ext_resource type="Texture2D" uid="uid://cn4gmc8xqugyc" path="res://Assets for Eating Game/Ending/Eat69.png" id="133_l8tq8"]
+[ext_resource type="Texture2D" uid="uid://bd7yr2uaqyxcq" path="res://Assets for Eating Game/Ending/Eat70.png" id="134_6v8w2"]
+[ext_resource type="Texture2D" uid="uid://brn10aeo6wuvq" path="res://Assets for Eating Game/Ending/Eat71.png" id="135_btf3l"]
+[ext_resource type="Texture2D" uid="uid://gyprqilb7vtf" path="res://Assets for Eating Game/Ending/Eat72.png" id="136_l30wi"]
+[ext_resource type="Texture2D" uid="uid://bayqc72s0jrji" path="res://Assets for Eating Game/Ending/Eat73.png" id="137_x40k4"]
+[ext_resource type="Texture2D" uid="uid://orn2yoahw5dt" path="res://Assets for Eating Game/Ending/Eat74.png" id="138_vo87d"]
+[ext_resource type="Texture2D" uid="uid://dfxudux6rid5" path="res://Assets for Eating Game/Ending/Eat75.png" id="139_tj8mx"]
+[ext_resource type="Texture2D" uid="uid://cm7j4k3bdkho4" path="res://Assets for Eating Game/Ending/Eat76.png" id="140_m5svl"]
+[ext_resource type="Texture2D" uid="uid://babotiy4njwvv" path="res://Assets for Eating Game/Ending/Eat77.png" id="141_80wf1"]
+[ext_resource type="Texture2D" uid="uid://b386bu4f2c7be" path="res://Assets for Eating Game/Ending/Eat78.png" id="142_7fcgc"]
+[ext_resource type="Texture2D" uid="uid://cgwu1liqq78y4" path="res://Assets for Eating Game/Ending/Eat79.png" id="143_k86ll"]
+[ext_resource type="Texture2D" uid="uid://dw2kygrtfqle6" path="res://Assets for Eating Game/Ending/Eat80.png" id="144_3rba3"]
+[ext_resource type="Texture2D" uid="uid://dgbsp4oldxb74" path="res://Assets for Eating Game/Ending/Eat81.png" id="145_u3mov"]
+[ext_resource type="Texture2D" uid="uid://cqmub8h6gwxc7" path="res://Assets for Eating Game/Ending/Eat82.png" id="146_h14p7"]
+[ext_resource type="Texture2D" uid="uid://b3v36ihu2c5qv" path="res://Assets for Eating Game/Ending/Eat83.png" id="147_1vqb3"]
+[ext_resource type="Texture2D" uid="uid://bv7xmtf4o1kxs" path="res://Assets for Eating Game/Ending/Eat84.png" id="148_cuccb"]
+[ext_resource type="Texture2D" uid="uid://b47sdtc5ojur5" path="res://Assets for Eating Game/Ending/Eat85.png" id="149_r1dh0"]
+[ext_resource type="Texture2D" uid="uid://hyr54ufntr2y" path="res://Assets for Eating Game/Ending/Eat86.png" id="150_cpdcn"]
+[ext_resource type="Texture2D" uid="uid://dxbpr0pjblikh" path="res://Assets for Eating Game/Ending/Eat87.png" id="151_c0mcu"]
+[ext_resource type="Texture2D" uid="uid://dg2015wluo256" path="res://Assets for Eating Game/Ending/Eat88.png" id="152_p4u84"]
+[ext_resource type="Texture2D" uid="uid://de4bneeqcu54m" path="res://Assets for Eating Game/Ending/Eat89.png" id="153_e6bw2"]
+[ext_resource type="Texture2D" uid="uid://bnculxc5nfv3u" path="res://Assets for Eating Game/Ending/Eat90.png" id="154_kj7rv"]
+[ext_resource type="Texture2D" uid="uid://34o3t2yycoty" path="res://Assets for Eating Game/Ending/Eat91.png" id="155_k18s7"]
+[ext_resource type="Texture2D" uid="uid://dwerd58e3uxxb" path="res://Assets for Eating Game/Ending/Eat92.png" id="156_p2csr"]
+[ext_resource type="Texture2D" uid="uid://c4tewwtql3d5c" path="res://Assets for Eating Game/Ending/Eat93.png" id="157_qhrm5"]
+[ext_resource type="Texture2D" uid="uid://fm2avbcrc13r" path="res://Assets for Eating Game/Ending/Eat94.png" id="158_ygx6g"]
+[ext_resource type="Texture2D" uid="uid://c5qqqxwgikiga" path="res://Assets for Eating Game/Ending/Eat95.png" id="159_g7y1c"]
+[ext_resource type="Texture2D" uid="uid://bbmbs4mqqgmjl" path="res://Assets for Eating Game/Ending/Eat96.png" id="160_xbygb"]
+[ext_resource type="Texture2D" uid="uid://dyulwfwhd6fjd" path="res://Assets for Eating Game/Ending/Eat97.png" id="161_0rolq"]
+[ext_resource type="Texture2D" uid="uid://denw7ehe0fm66" path="res://Assets for Eating Game/Ending/Eat98.png" id="162_wopal"]
+[ext_resource type="Texture2D" uid="uid://chil4gmirkfcf" path="res://Assets for Eating Game/Ending/Eat99.png" id="163_8vjoq"]
+[ext_resource type="Texture2D" uid="uid://rrx7jska07tx" path="res://Assets for Eating Game/Ending/Eat100.png" id="164_awgf3"]
+[ext_resource type="Texture2D" uid="uid://by746vjrev8rs" path="res://Assets for Eating Game/Ending/Eat101.png" id="165_vr330"]
+[ext_resource type="Texture2D" uid="uid://f8kea2fb4qs5" path="res://Assets for Eating Game/Ending/Eat102.png" id="166_eregf"]
+[ext_resource type="Texture2D" uid="uid://cr3oqsut00h4i" path="res://Assets for Eating Game/Ending/Eat103.png" id="167_ilh1v"]
+[ext_resource type="Texture2D" uid="uid://yifi76dbkbuq" path="res://Assets for Eating Game/Ending/Eat104.png" id="168_rnx73"]
+[ext_resource type="Texture2D" uid="uid://1i8eexga3b0" path="res://Assets for Eating Game/Ending/Eat105.png" id="169_3dlft"]
+[ext_resource type="Texture2D" uid="uid://ylx7xwwu7mre" path="res://Assets for Eating Game/Ending/Eat106.png" id="170_a4wdy"]
+[ext_resource type="Texture2D" uid="uid://bbts60rq8yynr" path="res://Assets for Eating Game/Ending/Eat107.png" id="171_xrmwg"]
+[ext_resource type="Texture2D" uid="uid://bqha4i1c2idiu" path="res://Assets for Eating Game/Ending/Eat108.png" id="172_pifoo"]
+[ext_resource type="Texture2D" uid="uid://c6yk0o58djm0o" path="res://Assets for Eating Game/Ending/Eat109.png" id="173_phl80"]
+[ext_resource type="Texture2D" uid="uid://c4ie0wsqtqn3i" path="res://Assets for Eating Game/Ending/Eat110.png" id="174_n7sko"]
+[ext_resource type="Texture2D" uid="uid://cpeqd75q63ano" path="res://Assets for Eating Game/Ending/Eat111.png" id="175_0tdjp"]
+[ext_resource type="Texture2D" uid="uid://b0qvgdqko1b2j" path="res://Assets for Eating Game/Ending/Eat112.png" id="176_icnbs"]
+[ext_resource type="Texture2D" uid="uid://cv383ikisvpnh" path="res://Assets for Eating Game/Ending/Eat113.png" id="177_ojsgw"]
+[ext_resource type="Texture2D" uid="uid://cf4skskmgoubt" path="res://Assets for Eating Game/Ending/Eat114.png" id="178_e7rx7"]
+[ext_resource type="Texture2D" uid="uid://ce5bau6580pbd" path="res://Assets for Eating Game/Ending/Eat115.png" id="179_hlx26"]
+[ext_resource type="Texture2D" uid="uid://dgokhg8d6n8vx" path="res://Assets for Eating Game/Ending/Eat116.png" id="180_a6v4l"]
+[ext_resource type="Texture2D" uid="uid://cd73cs5lb232" path="res://Assets for Eating Game/Ending/Eat117.png" id="181_2soev"]
+[ext_resource type="Texture2D" uid="uid://bxhv6wapulvnc" path="res://Assets for Eating Game/Ending/Eat118.png" id="182_4ctvu"]
+[ext_resource type="Texture2D" uid="uid://dst7ydduljio7" path="res://Assets for Eating Game/Ending/Eat119.png" id="183_soxkq"]
+[ext_resource type="Texture2D" uid="uid://51vctv18ljaq" path="res://Assets for Eating Game/Ending/Eat120.png" id="184_d56r3"]
+[ext_resource type="Texture2D" uid="uid://cjxoy8ncgbf6h" path="res://Assets for Eating Game/Ending/Eat121.png" id="185_xkaxa"]
+[ext_resource type="AudioStream" uid="uid://blpbroepcsob" path="res://Assets for Eating Game/Audio/Nguya(Updated).mp3" id="196_048ug"]
+[ext_resource type="AudioStream" uid="uid://6co11cqg4eu8" path="res://Assets for Eating Game/Audio/Breathe out.mp3" id="198_ypji2"]
+[ext_resource type="AudioStream" uid="uid://b2gpq8tnjaxv8" path="res://Assets for Eating Game/Audio/Sip.mp3" id="199_wg5wf"]
+[ext_resource type="AudioStream" uid="uid://dwwjok3q120x6" path="res://Assets for Eating Game/Audio/WinAudio.mp3" id="199_ynk6e"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_o8jbh"]
+radius = 78.025635
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_53ixv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_8pm7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_6gjc1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_23e6g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_y5u28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_fow1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_pwvbo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_cru43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_o853e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_s7ng1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_2lixj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_26m2t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_tp6tm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_w26rq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_su4t7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_ndv7n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_7le57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_j27s3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_alqxb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ptyp5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_ga2so")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_0hkcu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_1l0ta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_lq7f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_taeqo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_b25dw")
+}],
+"loop": false,
+"name": &"Eating",
+"speed": 8.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8pm7x"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_wxnkq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_vima4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_b1c3p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_7kln3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_xcey8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_fqowm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_4oxxs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_obsex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_wrteo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_m0f5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_a53h6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_2chb6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_2xro1")
+}],
+"loop": false,
+"name": &"anim 1",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42_gq54k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_a20v0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_wyxud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_lhe7b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_ys6cm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_vvkrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_2u6h2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_muril")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_21mo5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_q06o5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_gpusv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_g7o85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_2qi2e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_1lmq2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_w82i6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_c3r7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_hfdiy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_3vtjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_v72it")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_el3ib")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_8nom0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_cq4ag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_7ydhp")
+}],
+"loop": false,
+"name": &"anim 2",
+"speed": 10.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_70cvn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("65_18oww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_048ug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_8a08l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_ypji2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_wg5wf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_ynk6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_b1fmk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_efr4w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_sr2gh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_yotg8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_ewnhj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_325lx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_06br0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_y7t4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_o2d3i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_nsbqf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_djfkr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_xovka")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_wwwlm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_6o2k6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_y01i7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_cta50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_r1v58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_abit6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_yxhep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_fwb2n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_82pyf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_7kyxd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_kktqr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_0p0wg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_2vs05")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_wlupl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_afc31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_bgiwl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_2gce3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_ry4yn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_0uva2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_1oytb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_ka6bl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_8as3m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_3mgjx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_5ugb5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_aavci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_q2kw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_q3h6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_gxyr4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_ib0d8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_ugte6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_xl6i0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_42fqn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_33i45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_oy262")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_nhkkq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_lt3s3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_rmxvc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_03t0m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_6rm4a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_ypyoi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_gxihk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_4qaoj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_hpw3b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_dgjx3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_kbww5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_otsj4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_4gkgs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_487kp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_1weie")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_mrlsl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_l8tq8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_6v8w2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_btf3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_l30wi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_x40k4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_vo87d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_tj8mx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_m5svl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_80wf1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_7fcgc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_k86ll")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_3rba3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_u3mov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_h14p7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_1vqb3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_cuccb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_r1dh0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_cpdcn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_c0mcu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_p4u84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_e6bw2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_kj7rv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_k18s7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_p2csr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_qhrm5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_ygx6g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_g7y1c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_xbygb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_0rolq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_wopal")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_8vjoq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_awgf3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_vr330")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_eregf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_ilh1v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_rnx73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_3dlft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_a4wdy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_xrmwg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_pifoo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_phl80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_n7sko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_0tdjp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_icnbs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_ojsgw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_e7rx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_hlx26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_a6v4l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_2soev")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_4ctvu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_soxkq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_d56r3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_xkaxa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_xkaxa")
+}],
+"loop": false,
+"name": &"Win",
+"speed": 27.0
+}]
+
+[node name="Boy" type="Node2D" unique_id=1143489768]
+script = ExtResource("3_boy_script")
+
+[node name="Default" type="Sprite2D" parent="." unique_id=668678686]
+position = Vector2(215.00002, 524)
+scale = Vector2(0.1435, 0.14036766)
+texture = ExtResource("1_o0gii")
+
+[node name="Open Mouth" type="Sprite2D" parent="." unique_id=1304999807]
+visible = false
+position = Vector2(216.50002, 524)
+scale = Vector2(0.14433333, 0.14117648)
+texture = ExtResource("2_o8jbh")
+
+[node name="Mouth" type="Area2D" parent="." unique_id=129777318]
+
+[node name="Food Detector" type="CollisionShape2D" parent="Mouth" unique_id=1942687799]
+position = Vector2(208, 556)
+shape = SubResource("CircleShape2D_o8jbh")
+
+[node name="Eating" type="AnimatedSprite2D" parent="." unique_id=1013157058]
+visible = false
+position = Vector2(216.50002, 525)
+scale = Vector2(0.4432292, 0.43888885)
+sprite_frames = SubResource("SpriteFrames_53ixv")
+animation = &"Eating"
+frame = 24
+frame_progress = 1.0
+
+[node name="Drinking" type="AnimatedSprite2D" parent="." unique_id=2033159139]
+visible = false
+position = Vector2(217.00002, 523.49994)
+scale = Vector2(0.48715082, 0.47415495)
+sprite_frames = SubResource("SpriteFrames_8pm7x")
+animation = &"anim 2"
+frame = 22
+frame_progress = 1.0
+
+[node name="Win" type="AnimatedSprite2D" parent="." unique_id=1024546124]
+visible = false
+position = Vector2(213.00002, 403)
+scale = Vector2(0.79687494, 0.99444443)
+sprite_frames = SubResource("SpriteFrames_70cvn")
+animation = &"Win"
+frame = 121
+frame_progress = 1.0
+
+[node name="Nguya(updated)" type="AudioStreamPlayer" parent="." unique_id=608229998]
+stream = ExtResource("196_048ug")
+
+[node name="Sip" type="AudioStreamPlayer" parent="." unique_id=272741789]
+stream = ExtResource("199_wg5wf")
+volume_db = -10.0
+
+[node name="BreatheOut" type="AudioStreamPlayer" parent="." unique_id=2020239777]
+stream = ExtResource("198_ypji2")
+
+[node name="WinAudio" type="AudioStreamPlayer" parent="." unique_id=767603448]
+stream = ExtResource("199_ynk6e")

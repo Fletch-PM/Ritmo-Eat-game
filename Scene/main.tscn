@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://d37tyqwgknr2v"]
+
+[ext_resource type="Texture2D" uid="uid://b82ro42tkdxbf" path="res://Assets for Eating Game/EatBG.png" id="1_f6udf"]
+[ext_resource type="Script" uid="uid://bimxnt5d6sccg" path="res://Script/main.gd" id="1_r34rm"]
+[ext_resource type="PackedScene" uid="uid://d21a5sxwg2nss" path="res://Scene/boy.tscn" id="2_sblpm"]
+[ext_resource type="AudioStream" uid="uid://b77ij5penx53v" path="res://Assets for Eating Game/Audio/eatGameBG.mp3" id="4_2wwxx"]
+
+[node name="Main" type="Node2D" unique_id=1058951739]
+script = ExtResource("1_r34rm")
+
+[node name="EatBg" type="Sprite2D" parent="." unique_id=165770444]
+position = Vector2(213, 461.00003)
+scale = Vector2(0.2511628, 0.2505365)
+texture = ExtResource("1_f6udf")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=856050655]
+position = Vector2(215, 459)
+limit_left = 0
+limit_top = -7
+limit_right = 430
+limit_bottom = 925
+
+[node name="Boy" parent="." unique_id=1143489768 instance=ExtResource("2_sblpm")]
+position = Vector2(1, -1)
+
+[node name="Spawn Marker" type="Marker2D" parent="." unique_id=148492736]
+z_index = 2
+position = Vector2(560, 776)
+
+[node name="Plate Mid Marker" type="Marker2D" parent="." unique_id=1048838822]
+z_index = -1
+position = Vector2(216, 824)
+
+[node name="Plate End Marker" type="Marker2D" parent="." unique_id=1422291078]
+position = Vector2(-112, 824)
+
+[node name="Plate Start Marker" type="Marker2D" parent="." unique_id=1462302530]
+position = Vector2(560, 824)
+
+[node name="Food Destination" type="Marker2D" parent="." unique_id=441133992]
+z_index = 2
+position = Vector2(216, 776)
+
+[node name="EatGameBg" type="AudioStreamPlayer" parent="." unique_id=1619066954]
+stream = ExtResource("4_2wwxx")
+volume_db = -20.0
+autoplay = true

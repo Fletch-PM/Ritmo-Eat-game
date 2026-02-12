@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://bbabr4y2epvn1"]
+
+[ext_resource type="Texture2D" uid="uid://dtbhya0g4vcyj" path="res://Assets for Eating Game/Rice.png" id="1_hrs0f"]
+[ext_resource type="Script" uid="uid://xg15apwwhun8" path="res://Script/rice.gd" id="1_wtgmr"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wtgmr"]
+radius = 46.043457
+
+[node name="Rice" type="Node2D" unique_id=1918592890]
+script = ExtResource("1_wtgmr")
+
+[node name="Rice" type="Sprite2D" parent="." unique_id=1946434186]
+position = Vector2(4.5323296, -2.9166672)
+scale = Vector2(0.17960063, 0.3513418)
+texture = ExtResource("1_hrs0f")
+
+[node name="Rice Area" type="Area2D" parent="." unique_id=908966137]
+position = Vector2(-2.7500458, -0.25)
+
+[node name="Rice Collision" type="CollisionShape2D" parent="Rice Area" unique_id=599102013]
+z_index = 2
+position = Vector2(0.7500458, 0.25)
+shape = SubResource("CircleShape2D_wtgmr")

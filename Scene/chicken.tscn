@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://foo412u1qmo7"]
+
+[ext_resource type="Texture2D" uid="uid://cpj3sv77cxfp8" path="res://Assets for Eating Game/Chicken.png" id="1_yjtf4"]
+[ext_resource type="Script" uid="uid://dqvta6jojbyg5" path="res://Script/chicken.gd" id="2_chicken_script"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yjtf4"]
+radius = 46.043457
+
+[node name="Chicken" type="Node2D" unique_id=1587655162]
+script = ExtResource("2_chicken_script")
+
+[node name="Chicken" type="Sprite2D" parent="." unique_id=1561314890]
+position = Vector2(1.249985, -2.25)
+scale = Vector2(0.17511654, 0.35416666)
+texture = ExtResource("1_yjtf4")
+
+[node name="Chicken Area" type="Area2D" parent="." unique_id=1119382833]
+position = Vector2(-2.7500458, -0.25)
+
+[node name="Chicken Collision" type="CollisionShape2D" parent="Chicken Area" unique_id=1647973716]
+z_index = 2
+position = Vector2(0.7500458, 0.25)
+shape = SubResource("CircleShape2D_yjtf4")

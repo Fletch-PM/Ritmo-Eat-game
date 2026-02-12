@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://c2u618crwxgx3"]
+
+[ext_resource type="Texture2D" uid="uid://bdsbjdfu1qblo" path="res://Assets for Eating Game/Plate.png" id="1_gmc4b"]
+
+[node name="Plate" type="Node2D" unique_id=486341594]
+
+[node name="Plate Sprite" type="Sprite2D" parent="." unique_id=1931425606]
+
+[node name="Plate" type="Sprite2D" parent="." unique_id=1671415187]
+position = Vector2(3.8146973e-06, 1.999999)
+scale = Vector2(0.17399165, 0.21993886)
+texture = ExtResource("1_gmc4b")

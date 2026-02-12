@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dhkp81o6od0af"]
+
+[ext_resource type="Script" uid="uid://bvv0t8y1yyis8" path="res://Script/veggie.gd" id="1_ihk55"]
+[ext_resource type="Texture2D" uid="uid://wab7l1k4qv11" path="res://Assets for Eating Game/Vegi.png" id="2_ihk55"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_l4jfk"]
+radius = 46.043457
+
+[node name="Veggie" type="Node2D" unique_id=1701536289]
+script = ExtResource("1_ihk55")
+
+[node name="Veggie" type="Sprite2D" parent="." unique_id=657469728]
+position = Vector2(12.000004, -12.402896)
+scale = Vector2(0.21561338, 0.31863067)
+texture = ExtResource("2_ihk55")
+
+[node name="Veggie Area" type="Area2D" parent="." unique_id=291718989]
+position = Vector2(-2.7500458, -0.25)
+
+[node name="Veggie Collision" type="CollisionShape2D" parent="Veggie Area" unique_id=1367710105]
+z_index = 2
+position = Vector2(0.7500458, 0.25)
+shape = SubResource("CircleShape2D_l4jfk")

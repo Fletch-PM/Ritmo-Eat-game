@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://eptjv6dx6f61"]
+
+[ext_resource type="Texture2D" uid="uid://t8uqld3g8td7" path="res://Assets for Eating Game/Water1.png" id="1_5jacu"]
+[ext_resource type="Texture2D" uid="uid://bva6uaoojtot2" path="res://Assets for Eating Game/Water.png" id="2_gybgi"]
+[ext_resource type="Script" uid="uid://cf5buxoh0j7ko" path="res://Script/glass.gd" id="3_glass_script"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5jacu"]
+radius = 46.043457
+
+[node name="Glass" type="Node2D" unique_id=348402445]
+script = ExtResource("3_glass_script")
+
+[node name="No water" type="Sprite2D" parent="." unique_id=2055476288]
+position = Vector2(24, 2.3841858e-07)
+scale = Vector2(0.04848485, 0.044999998)
+texture = ExtResource("1_5jacu")
+
+[node name="Has Water" type="Sprite2D" parent="." unique_id=1680887466]
+visible = false
+position = Vector2(24.00001, -2.2649765e-06)
+scale = Vector2(0.19138758, 0.17910448)
+texture = ExtResource("2_gybgi")
+
+[node name="Glass Area" type="Area2D" parent="." unique_id=1960802023]
+position = Vector2(-2.7500458, -0.25)
+
+[node name="Glass Collision" type="CollisionShape2D" parent="Glass Area" unique_id=507686860]
+z_index = 2
+position = Vector2(0.7500458, 0.25)
+shape = SubResource("CircleShape2D_5jacu")
