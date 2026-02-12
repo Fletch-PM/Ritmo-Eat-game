@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dp1ghqic0h3l1"
+path="res://.godot/imported/Victory Sound Effect (mp3cut.net).mp3-dd363a399539cb80d7137e096b1050df.mp3str"
+
+[deps]
+
+source_file="res://Assets/Reward Asset/Victory Sound Effect (mp3cut.net).mp3"
+dest_files=["res://.godot/imported/Victory Sound Effect (mp3cut.net).mp3-dd363a399539cb80d7137e096b1050df.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
