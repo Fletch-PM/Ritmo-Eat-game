@@ -1,9 +1,10 @@
 [gd_scene format=3 uid="uid://d37tyqwgknr2v"]
 
-[ext_resource type="Texture2D" uid="uid://b82ro42tkdxbf" path="res://Assets for Eating Game/EatBG.png" id="1_f6udf"]
+[ext_resource type="Texture2D" uid="uid://b82ro42tkdxbf" path="res://Assets/EatBG.png" id="1_f6udf"]
 [ext_resource type="Script" uid="uid://bimxnt5d6sccg" path="res://Script/main.gd" id="1_r34rm"]
 [ext_resource type="PackedScene" uid="uid://d21a5sxwg2nss" path="res://Scene/boy.tscn" id="2_sblpm"]
-[ext_resource type="AudioStream" uid="uid://b77ij5penx53v" path="res://Assets for Eating Game/Audio/eatGameBG.mp3" id="4_2wwxx"]
+[ext_resource type="AudioStream" uid="uid://b77ij5penx53v" path="res://Assets/Audio/eatGameBG.mp3" id="4_2wwxx"]
+[ext_resource type="Texture2D" uid="uid://cmivrgm74ivg1" path="res://Assets/Eat BG extended.png" id="5_3amdw"]
 
 [node name="Main" type="Node2D" unique_id=1058951739]
 script = ExtResource("1_r34rm")
@@ -45,3 +46,9 @@ position = Vector2(216, 776)
 stream = ExtResource("4_2wwxx")
 volume_db = -20.0
 autoplay = true
+
+[node name="Extended BG" type="Sprite2D" parent="." unique_id=23473186]
+z_index = -2
+position = Vector2(214, 410)
+scale = Vector2(1, 1.0565566)
+texture = ExtResource("5_3amdw")

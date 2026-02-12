@@ -15,6 +15,7 @@ signal food_added
 # Dictionary to store dragged food data
 var food_data = {}
 var is_eating = false
+var reward_scene = preload("res://Scene/reward_screen.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -117,6 +118,14 @@ func play_drink_animation() -> void:
 	Win.visible = true
 	Win.play("Win")
 	EndAudio.play(true)
+	# Wait for WinAudio to finish
+	await EndAudio.finished
+	# Load reward scene on top of main
+	var reward = reward_scene.instantiate()
+	get_tree().root.add_child(reward)
+	# Unload main scene
+	get_tree().root.remove_child(get_parent())
+	get_parent().queue_free()
 
 
 func store_food(data: Dictionary):
