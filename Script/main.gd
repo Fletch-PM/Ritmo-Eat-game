@@ -12,6 +12,7 @@ extends Node2D
 @onready var plate_end_marker = $"Plate End Marker"
 @onready var boy = $Boy
 @onready var bg_music = $EatGameBg
+@onready var back_button = $"Back"
 
 var plate_mid = null
 var plate_start = null
@@ -31,6 +32,10 @@ func _ready() -> void:
 	
 	# Setup background music looping
 	bg_music.finished.connect(_on_bg_music_finished)
+	
+	# Connect back button
+	if back_button:
+		back_button.pressed.connect(_on_back_pressed)
 	
 	spawn_initial_plates()
 	spawn_chicken()
@@ -153,3 +158,7 @@ func _on_food_added():
 func _on_bg_music_finished() -> void:
 	# Replay background music when it finishes
 	bg_music.play()
+
+
+func _on_back_pressed() -> void:
+	get_tree().quit()
