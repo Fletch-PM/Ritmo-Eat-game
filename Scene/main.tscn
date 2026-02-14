@@ -1,18 +1,13 @@
 [gd_scene format=3 uid="uid://d37tyqwgknr2v"]
 
-[ext_resource type="Texture2D" uid="uid://b82ro42tkdxbf" path="res://Assets/EatBG.png" id="1_f6udf"]
 [ext_resource type="Script" uid="uid://bimxnt5d6sccg" path="res://Script/main.gd" id="1_r34rm"]
 [ext_resource type="PackedScene" uid="uid://d21a5sxwg2nss" path="res://Scene/boy.tscn" id="2_sblpm"]
 [ext_resource type="AudioStream" uid="uid://b77ij5penx53v" path="res://Assets/Audio/eatGameBG.mp3" id="4_2wwxx"]
+[ext_resource type="Texture2D" uid="uid://dwdwfbah7esqy" path="res://Assets/Window.png" id="5_1xcnr"]
 [ext_resource type="Texture2D" uid="uid://cmivrgm74ivg1" path="res://Assets/Eat BG extended.png" id="5_3amdw"]
 
 [node name="Main" type="Node2D" unique_id=1058951739]
 script = ExtResource("1_r34rm")
-
-[node name="EatBg" type="Sprite2D" parent="." unique_id=165770444]
-position = Vector2(213, 461.00003)
-scale = Vector2(0.2511628, 0.2505365)
-texture = ExtResource("1_f6udf")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=856050655]
 position = Vector2(215, 459)
@@ -26,17 +21,17 @@ position = Vector2(1, -1)
 
 [node name="Spawn Marker" type="Marker2D" parent="." unique_id=148492736]
 z_index = 2
-position = Vector2(560, 776)
+position = Vector2(658, 778)
 
 [node name="Plate Mid Marker" type="Marker2D" parent="." unique_id=1048838822]
 z_index = -1
 position = Vector2(216, 824)
 
 [node name="Plate End Marker" type="Marker2D" parent="." unique_id=1422291078]
-position = Vector2(-112, 824)
+position = Vector2(-160, 824)
 
 [node name="Plate Start Marker" type="Marker2D" parent="." unique_id=1462302530]
-position = Vector2(560, 824)
+position = Vector2(658, 826)
 
 [node name="Food Destination" type="Marker2D" parent="." unique_id=441133992]
 z_index = 2
@@ -49,15 +44,29 @@ autoplay = true
 
 [node name="Extended BG" type="Sprite2D" parent="." unique_id=23473186]
 z_index = -2
-position = Vector2(214, 410)
-scale = Vector2(1, 1.0565566)
+position = Vector2(233, 404)
+scale = Vector2(1, 1.0798299)
 texture = ExtResource("5_3amdw")
 
-[node name="Back" type="Button" parent="." unique_id=1793283456]
+[node name="Window" type="Sprite2D" parent="." unique_id=932688684]
+z_index = -2
+position = Vector2(226, 292)
+texture = ExtResource("5_1xcnr")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2097472627]
+
+[node name="Ui anchor" type="Control" parent="CanvasLayer" unique_id=241931642]
+layout_mode = 3
+anchor_right = 0.187
+anchor_bottom = 0.072000004
+offset_right = -0.20000458
+
+[node name="Back" type="Button" parent="CanvasLayer/Ui anchor" unique_id=1793283456]
+layout_mode = 1
 offset_left = 16.0
-offset_top = 17.0
-offset_right = 98.0
-offset_bottom = 70.0
+offset_top = 16.0
+offset_right = 116.0
+offset_bottom = 64.0
 theme_override_colors/font_color = Color(0.17254902, 0.27450982, 0.37254903, 1)
 theme_override_colors/font_focus_color = Color(0.17254902, 0.27450982, 0.37254903, 1)
 theme_override_colors/font_pressed_color = Color(0.17254902, 0.27450982, 0.37254903, 1)

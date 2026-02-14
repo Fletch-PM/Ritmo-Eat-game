@@ -2,6 +2,7 @@ extends Node2D
 
 var dragging = false
 var being_eaten = false
+var can_be_dragged = false
 var home_position = Vector2.ZERO
 @onready var rice_area = $"Rice Area"
 
@@ -23,11 +24,12 @@ func _process(_delta: float) -> void:
 func _on_input_event(_viewport, event, _shape_idx):
 	# Handle touch input for mobile
 	if event is InputEventScreenTouch:
-		if event.pressed:
+		if event.pressed and can_be_dragged:
 			dragging = true
 		else:
 			dragging = false
-			_check_drop()
+			if can_be_dragged:
+				_check_drop()
 
 
 func _check_drop():

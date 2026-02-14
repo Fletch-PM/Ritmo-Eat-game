@@ -5,15 +5,19 @@ extends Node2D
 @onready var veggie_scene = preload("res://Scene/veggie.tscn")
 @onready var glass_scene = preload("res://Scene/glass.tscn")
 @onready var plate_scene = preload("res://Scene/plate.tscn")
+@onready var camera = $Camera2D
 @onready var food_destination = $"Food Destination"
 @onready var spawn_marker = $"Spawn Marker"
 @onready var plate_mid_marker = $"Plate Mid Marker"
 @onready var plate_start_marker = $"Plate Start Marker"
 @onready var plate_end_marker = $"Plate End Marker"
+@onready var extended_bg = $"Extended BG"
+@onready var window_sprite = $Window
 @onready var boy = $Boy
 @onready var bg_music = $EatGameBg
-@onready var back_button = $"Back"
+@onready var back_button = $CanvasLayer/"Ui anchor"/Back
 
+var responsive: Node
 var plate_mid = null
 var plate_start = null
 var rice_on_start = null
@@ -27,8 +31,24 @@ var max_plates = 3
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	# Make camera active
-	var camera = $Camera2D
 	camera.make_current()
+	
+	# Initialize responsive layout
+	var ResponsiveScript = load("res://Script/Responsive.gd")
+	responsive = ResponsiveScript.new()
+	add_child(responsive)
+	responsive.initialize(
+		camera,
+		spawn_marker,
+		plate_mid_marker,
+		plate_start_marker,
+		plate_end_marker,
+		food_destination,
+		extended_bg,
+		window_sprite
+	)
+	responsive.apply_responsive_layout(get_viewport())
+	get_viewport().size_changed.connect(func(): responsive.apply_responsive_layout(get_viewport()))
 	
 	# Setup background music looping
 	bg_music.finished.connect(_on_bg_music_finished)
@@ -107,7 +127,7 @@ func _on_food_added():
 	if plate_mid:
 		# Move the mid plate to end marker
 		var tween = create_tween()
-		tween.tween_property(plate_mid, "position", plate_end_marker.position, 2.0)
+		tween.tween_property(plate_mid, "position", plate_end_marker.position, 1.3333333)
 		await tween.finished
 		plate_mid.queue_free()
 		plate_mid = null
@@ -115,36 +135,40 @@ func _on_food_added():
 		# Move glass after 3rd plate reaches end marker
 		if food_eaten_count == 3 and glass:
 			var glass_tween = create_tween()
-			glass_tween.tween_property(glass, "position", food_destination.position, 1.0)
+			glass_tween.tween_property(glass, "position", food_destination.position, 0.6666667)
 			await glass_tween.finished
-			# Update glass home position after move
+			# Update glass home position and enable dragging
 			if "home_position" in glass:
 				glass.home_position = glass.global_position
+			if "can_be_dragged" in glass:
+				glass.can_be_dragged = true
 		
 		# Move start plate to mid marker
 		if plate_start:
 			plate_mid = plate_start
 			var move_tween = create_tween()
-			move_tween.tween_property(plate_mid, "position", plate_mid_marker.position, 1.0)
+			move_tween.tween_property(plate_mid, "position", plate_mid_marker.position, 0.6666667)
 			
 			# Move rice with the plate from start to mid
 			if rice_on_start:
 				var rice_offset = rice_on_start.position - plate_start.position
 				var rice_tween = create_tween()
-				rice_tween.tween_property(rice_on_start, "position", plate_mid_marker.position + rice_offset, 1.0)
+				rice_tween.tween_property(rice_on_start, "position", plate_mid_marker.position + rice_offset, 0.6666667)
 				await rice_tween.finished
-				# Update rice home position
+				# Update rice home position and enable dragging
 				rice_on_start.home_position = rice_on_start.global_position
+				rice_on_start.can_be_dragged = true
 				rice_on_start = null
 			
 			# Move veggie with the plate from start to mid
 			if veggie_on_start:
 				var veggie_offset = veggie_on_start.position - plate_start.position
 				var veggie_tween = create_tween()
-				veggie_tween.tween_property(veggie_on_start, "position", plate_mid_marker.position + veggie_offset, 1.0)
+				veggie_tween.tween_property(veggie_on_start, "position", plate_mid_marker.position + veggie_offset, 0.6666667)
 				await veggie_tween.finished
-				# Update veggie home position
+				# Update veggie home position and enable dragging
 				veggie_on_start.home_position = veggie_on_start.global_position
+				veggie_on_start.can_be_dragged = true
 				veggie_on_start = null
 				if not glass_spawned:
 					spawn_glass()

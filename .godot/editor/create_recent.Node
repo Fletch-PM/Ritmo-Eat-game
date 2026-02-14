@@ -1,5 +1,7 @@
-Button
+Control
+Container
 Label
+Button
 AnimatedSprite2D
 Sprite2D
 TouchScreenButton

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://d04pds81kg28m"]
 
 [ext_resource type="Texture2D" uid="uid://dgkv24ctyvjca" path="res://Assets/Reward Asset/Frame 6.png" id="1_7dtqh"]
-[ext_resource type="Script" uid="uid://b4ax2sj3mp6cq" path="res://script/reward_screen.gd" id="1_xsupf"]
+[ext_resource type="Script" uid="uid://b4ax2sj3mp6cq" path="res://Script/reward_screen.gd" id="1_xsupf"]
 [ext_resource type="AudioStream" uid="uid://lht78rn47nj6" path="res://Assets/Reward Asset/GOOD JOB.mp3" id="7_xu1ji"]
 [ext_resource type="Texture2D" uid="uid://gaieiy1j7y7f" path="res://Assets/Reward Asset/fallingstar/Group 465.png" id="8_50aed"]
 [ext_resource type="AudioStream" uid="uid://dp1ghqic0h3l1" path="res://Assets/Reward Asset/Victory Sound Effect (mp3cut.net).mp3" id="8_xu1ji"]
@@ -500,14 +500,15 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = -16.0
-offset_right = 2.0
-offset_bottom = -16.0
+offset_left = 72.0
+offset_top = -8.0
+offset_right = 74.0
+offset_bottom = -8.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_xsupf")
 
-[node name="Label" type="Label" parent="." unique_id=660658418]
+[node name="GoodJob label" type="Label" parent="." unique_id=660658418]
 z_index = 5
 layout_mode = 1
 anchors_preset = -1
@@ -523,22 +524,22 @@ text = "Good Job!"
 
 [node name="BG" type="Sprite2D" parent="." unique_id=131263170]
 z_as_relative = false
-position = Vector2(304.00003, 471)
-scale = Vector2(4.3348837, 1.0107296)
+position = Vector2(304.00003, 508.00003)
+scale = Vector2(4.3348837, 1.0901288)
 texture = ExtResource("1_7dtqh")
 
 [node name="Next" type="Button" parent="." unique_id=1681730663]
 z_index = 4
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.5
-anchor_top = 0.77500004
-anchor_right = 0.5
-anchor_bottom = 0.88500005
-offset_left = -64.8
-offset_top = -23.300049
-offset_right = 64.79999
-offset_bottom = 0.17993164
+anchor_left = 0.35900003
+anchor_top = 0.64000005
+anchor_right = 0.37300003
+anchor_bottom = 0.776
+offset_left = -56.11801
+offset_top = 7.999939
+offset_right = 65.053955
+offset_bottom = 5.4799805
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0.17254902, 0.27450982, 0.37254903, 1)
@@ -606,3 +607,12 @@ z_as_relative = false
 position = Vector2(306, 471)
 scale = Vector2(0.47556007, 0.5316027)
 texture = ExtResource("126_gcxdq")
+
+[node name="child name" type="Label" parent="." unique_id=1767457969]
+layout_mode = 0
+offset_left = 176.0
+offset_top = 552.0
+offset_right = 262.0
+offset_bottom = 575.0
+theme_override_colors/font_color = Color(0.17254902, 0.27450982, 0.37254903, 1)
+text = "child name"

@@ -10,12 +10,12 @@ radius = 46.043457
 script = ExtResource("1_wtgmr")
 
 [node name="Rice" type="Sprite2D" parent="." unique_id=1946434186]
-position = Vector2(11.467648, -5.083331)
+position = Vector2(7.4676476, -5.083331)
 scale = Vector2(0.17960063, 0.3513418)
 texture = ExtResource("1_hrs0f")
 
 [node name="Rice Area" type="Area2D" parent="." unique_id=908966137]
-position = Vector2(4.185272, -2.4166641)
+position = Vector2(0.18527222, -2.4166641)
 
 [node name="Rice Collision" type="CollisionShape2D" parent="Rice Area" unique_id=599102013]
 z_index = 2

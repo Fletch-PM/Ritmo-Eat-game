@@ -2,6 +2,7 @@ extends Node2D
 
 var dragging = false
 var being_eaten = false
+var can_be_dragged = false
 var home_position = Vector2.ZERO
 var is_activated = false
 
@@ -41,16 +42,18 @@ func _on_input_event(_viewport, event, _shape_idx):
 	if event is InputEventScreenTouch:
 		if event.pressed:
 			# If not activated, activate it on first press
-			if not is_activated:
+			if not is_activated and can_be_dragged:
 				is_activated = true
 				if has_water_sprite:
 					has_water_sprite.visible = true
 				return
 			# If already activated, allow dragging
-			dragging = true
+			if can_be_dragged:
+				dragging = true
 		else:
 			dragging = false
-			_check_drop()
+			if can_be_dragged:
+				_check_drop()
 
 
 func _check_drop():
