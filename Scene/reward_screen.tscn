@@ -500,46 +500,82 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 72.0
-offset_top = -8.0
-offset_right = 74.0
-offset_bottom = -8.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_xsupf")
 
-[node name="GoodJob label" type="Label" parent="." unique_id=660658418]
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=575413181]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=1813353121]
+layout_mode = 3
+anchor_left = 0.48400003
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -208.12001
+offset_right = 215.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Star Middle" type="Sprite2D" parent="CanvasLayer/Control" unique_id=1844136722]
+z_index = 3
+position = Vector2(222.78131, 303.1875)
+scale = Vector2(0.30782557, 0.29866135)
+texture = ExtResource("128_rwim0")
+
+[node name="Star Right" type="Sprite2D" parent="CanvasLayer/Control" unique_id=1679694413]
+z_index = 3
+position = Vector2(334.78128, 311.18744)
+scale = Vector2(0.28687668, 0.28536543)
+texture = ExtResource("128_rwim0")
+
+[node name="Star Left" type="Sprite2D" parent="CanvasLayer/Control" unique_id=747972831]
+z_index = 3
+position = Vector2(110.78124, 311.18744)
+scale = Vector2(0.28687668, 0.28536543)
+texture = ExtResource("128_rwim0")
+
+[node name="child name" type="Label" parent="CanvasLayer/Control" unique_id=1767457969]
+z_index = 1
+layout_mode = 0
+offset_left = 166.78131
+offset_top = 537.1875
+offset_right = 252.78131
+offset_bottom = 560.1875
+theme_override_colors/font_color = Color(0.17254902, 0.27450982, 0.37254903, 1)
+text = "child name"
+
+[node name="GoodJob label" type="Label" parent="CanvasLayer/Control" unique_id=660658418]
 z_index = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_right = 1.0
 anchor_bottom = 1.0020001
-offset_left = 109.5
-offset_top = 419.5
-offset_right = -98.5
-offset_bottom = -446.36407
+offset_left = 108.28131
+offset_top = 404.68747
+offset_right = -99.71869
+offset_bottom = -462.1766
 theme_override_colors/font_color = Color(0.17254902, 0.27450982, 0.37254903, 1)
 theme_override_font_sizes/font_size = 48
 text = "Good Job!"
 
-[node name="BG" type="Sprite2D" parent="." unique_id=131263170]
+[node name="BG" type="Sprite2D" parent="CanvasLayer/Control" unique_id=131263170]
 z_as_relative = false
 position = Vector2(304.00003, 508.00003)
 scale = Vector2(4.3348837, 1.0901288)
 texture = ExtResource("1_7dtqh")
 
-[node name="Next" type="Button" parent="." unique_id=1681730663]
+[node name="Next" type="Button" parent="CanvasLayer/Control" unique_id=1681730663]
 z_index = 4
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.35900003
-anchor_top = 0.64000005
-anchor_right = 0.37300003
-anchor_bottom = 0.776
-offset_left = -56.11801
-offset_top = 7.999939
-offset_right = 65.053955
-offset_bottom = 5.4799805
+anchor_left = 0.48400003
+anchor_top = 0.65300006
+anchor_right = 0.50200003
+anchor_bottom = 0.77300006
+offset_left = -61.12001
+offset_top = -0.59606934
+offset_right = 58.539276
+offset_bottom = 7.563965
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0.17254902, 0.27450982, 0.37254903, 1)
@@ -551,14 +587,7 @@ theme_override_font_sizes/font_size = 28
 text = "Next"
 flat = true
 
-[node name="GoodJob" type="AudioStreamPlayer" parent="." unique_id=64893915]
-stream = ExtResource("7_xu1ji")
-
-[node name="VictorySoundEffect(mp3Cut_net)" type="AudioStreamPlayer" parent="." unique_id=2054169381]
-stream = ExtResource("8_xu1ji")
-volume_db = -20.0
-
-[node name="fallingstar" type="AnimatedSprite2D" parent="." unique_id=1944863586]
+[node name="fallingstar" type="AnimatedSprite2D" parent="CanvasLayer/Control" unique_id=1944863586]
 modulate = Color(1, 1, 1, 0.39215687)
 z_index = 1
 position = Vector2(224, 356)
@@ -566,7 +595,7 @@ scale = Vector2(1, 1.428)
 sprite_frames = SubResource("SpriteFrames_1dekk")
 autoplay = "default"
 
-[node name="fallingstar2" type="AnimatedSprite2D" parent="." unique_id=2010693358]
+[node name="fallingstar2" type="AnimatedSprite2D" parent="CanvasLayer/Control" unique_id=2010693358]
 modulate = Color(1, 1, 1, 0.39215687)
 z_index = 1
 position = Vector2(720, 358)
@@ -574,7 +603,7 @@ scale = Vector2(1, 1.432)
 sprite_frames = SubResource("SpriteFrames_1dekk")
 autoplay = "default"
 
-[node name="fallingstar3" type="AnimatedSprite2D" parent="." unique_id=2113844225]
+[node name="fallingstar3" type="AnimatedSprite2D" parent="CanvasLayer/Control" unique_id=2113844225]
 modulate = Color(1, 1, 1, 0.39215687)
 z_index = 1
 position = Vector2(-262, 357.00003)
@@ -582,25 +611,7 @@ scale = Vector2(1, 1.432)
 sprite_frames = SubResource("SpriteFrames_1dekk")
 autoplay = "default"
 
-[node name="Star Middle" type="Sprite2D" parent="." unique_id=1844136722]
-z_index = 3
-position = Vector2(224.00002, 318.00003)
-scale = Vector2(0.30782557, 0.29866135)
-texture = ExtResource("128_rwim0")
-
-[node name="Star Right" type="Sprite2D" parent="." unique_id=1679694413]
-z_index = 3
-position = Vector2(335.99997, 325.99997)
-scale = Vector2(0.28687668, 0.28536543)
-texture = ExtResource("128_rwim0")
-
-[node name="Star Left" type="Sprite2D" parent="." unique_id=747972831]
-z_index = 3
-position = Vector2(111.99994, 325.99997)
-scale = Vector2(0.28687668, 0.28536543)
-texture = ExtResource("128_rwim0")
-
-[node name="Rectangle516" type="Sprite2D" parent="." unique_id=519548149]
+[node name="Rectangle516" type="Sprite2D" parent="CanvasLayer/Control" unique_id=519548149]
 visible = false
 z_index = -1
 z_as_relative = false
@@ -608,11 +619,9 @@ position = Vector2(306, 471)
 scale = Vector2(0.47556007, 0.5316027)
 texture = ExtResource("126_gcxdq")
 
-[node name="child name" type="Label" parent="." unique_id=1767457969]
-layout_mode = 0
-offset_left = 176.0
-offset_top = 552.0
-offset_right = 262.0
-offset_bottom = 575.0
-theme_override_colors/font_color = Color(0.17254902, 0.27450982, 0.37254903, 1)
-text = "child name"
+[node name="GoodJob" type="AudioStreamPlayer" parent="." unique_id=64893915]
+stream = ExtResource("7_xu1ji")
+
+[node name="VictorySoundEffect(mp3Cut_net)" type="AudioStreamPlayer" parent="." unique_id=2054169381]
+stream = ExtResource("8_xu1ji")
+volume_db = -20.0

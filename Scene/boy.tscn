@@ -273,7 +273,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"Eating",
-"speed": 11.0
+"speed": 9.0
 }]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_8pm7x"]
