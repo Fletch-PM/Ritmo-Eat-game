@@ -13,7 +13,7 @@ config_version=5
 config/name="eat game"
 run/main_scene="uid://d37tyqwgknr2v"
 config/features=PackedStringArray("4.6", "GL Compatibility")
-boot_splash/show_image=false
+boot_splash/image="uid://bnfclxy7xoota"
 config/icon="res://icon.svg"
 
 [display]
