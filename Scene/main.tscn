@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bimxnt5d6sccg" path="res://Script/main.gd" id="1_r34rm"]
 [ext_resource type="PackedScene" uid="uid://d21a5sxwg2nss" path="res://Scene/boy.tscn" id="2_sblpm"]
+[ext_resource type="Texture2D" uid="uid://dvuo2ph3gfqvy" path="res://Assets/Rectangle 382.png" id="3_1xcnr"]
 [ext_resource type="AudioStream" uid="uid://b77ij5penx53v" path="res://Assets/Audio/eatGameBG.mp3" id="4_2wwxx"]
 [ext_resource type="Texture2D" uid="uid://dwdwfbah7esqy" path="res://Assets/Window.png" id="5_1xcnr"]
 [ext_resource type="Texture2D" uid="uid://cmivrgm74ivg1" path="res://Assets/Eat BG extended.png" id="5_3amdw"]
@@ -18,6 +19,11 @@ limit_bottom = 925
 
 [node name="Boy" parent="." unique_id=1143489768 instance=ExtResource("2_sblpm")]
 position = Vector2(1, -1)
+
+[node name="Rectangle382" type="Sprite2D" parent="." unique_id=422371204]
+position = Vector2(228.50003, 854)
+scale = Vector2(4.630233, 1.0714285)
+texture = ExtResource("3_1xcnr")
 
 [node name="Spawn Marker" type="Marker2D" parent="." unique_id=148492736]
 z_index = 2

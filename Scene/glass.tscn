@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://eptjv6dx6f61"]
 
-[ext_resource type="Texture2D" uid="uid://t8uqld3g8td7" path="res://Assets for Eating Game/Water1.png" id="1_5jacu"]
-[ext_resource type="Texture2D" uid="uid://bva6uaoojtot2" path="res://Assets for Eating Game/Water.png" id="2_gybgi"]
+[ext_resource type="Texture2D" uid="uid://t8uqld3g8td7" path="res://Assets/Water1.png" id="1_5jacu"]
+[ext_resource type="Texture2D" uid="uid://bva6uaoojtot2" path="res://Assets/Water.png" id="2_gybgi"]
 [ext_resource type="Script" uid="uid://cf5buxoh0j7ko" path="res://Script/glass.gd" id="3_glass_script"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_5jacu"]

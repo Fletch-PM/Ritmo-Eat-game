@@ -1,9 +1,9 @@
+AnimatedSprite2D
 Control
 CanvasLayer
 Container
 Label
 Button
-AnimatedSprite2D
 Sprite2D
 TouchScreenButton
 CollisionShape2D

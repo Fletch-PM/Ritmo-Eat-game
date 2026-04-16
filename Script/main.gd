@@ -57,6 +57,9 @@ func _ready() -> void:
 	if back_button:
 		back_button.pressed.connect(_on_back_pressed)
 	
+	# Connect water drunk signal to spawn water1
+	boy.water_drunk.connect(_on_water_drunk)
+	
 	spawn_initial_plates()
 	spawn_chicken()
 	spawn_rice()
@@ -182,6 +185,14 @@ func _on_food_added():
 func _on_bg_music_finished() -> void:
 	# Replay background music when it finishes
 	bg_music.play()
+
+
+func _on_water_drunk() -> void:
+	# Respawn glass at the mid marker when drinking anim 2 starts
+	glass = glass_scene.instantiate()
+	glass.position = plate_mid_marker.position
+	add_child(glass)
+	glass_spawned = true
 
 
 func _on_back_pressed() -> void:
